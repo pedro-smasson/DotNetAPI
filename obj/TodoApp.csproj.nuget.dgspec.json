@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Cursos Balta\\TodoApp\\TodoApp.csproj": {}
+  },
+  "projects": {
+    "D:\\Cursos Balta\\TodoApp\\TodoApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cursos Balta\\TodoApp\\TodoApp.csproj",
+        "projectName": "TodoApp",
+        "projectPath": "D:\\Cursos Balta\\TodoApp\\TodoApp.csproj",
+        "packagesPath": "C:\\Users\\ESTÁGIO\\.nuget\\packages\\",
+        "outputPath": "D:\\Cursos Balta\\TodoApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTÁGIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/precisaosistemas/_packaging/InovaPay/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/precisaosistemas/_packaging/RecargaPS/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Bluedesk/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Inovafarma/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Precisao/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23111.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
